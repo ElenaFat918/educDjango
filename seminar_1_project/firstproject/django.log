@@ -1,5 +1,0 @@
-"GET /cube/ HTTP/1.1" 200 76
-"GET /coin HTTP/1.1" 301 0
-"GET /coin/ HTTP/1.1" 200 85
-"GET /rand100 HTTP/1.1" 301 0
-"GET /rand100/ HTTP/1.1" 200 77
