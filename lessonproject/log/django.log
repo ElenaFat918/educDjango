@@ -38,3 +38,877 @@ INFO 2023-08-16 22:16:59,547 autoreload 7672 6888 Watching for file changes with
 INFO 2023-08-16 22:17:21,372 basehttp 7672 8964 "GET /prefix/about/ HTTP/1.1" 200 27
 INFO 2023-08-16 22:17:26,967 basehttp 7672 8964 "GET /prefix/ HTTP/1.1" 200 13
 INFO 2023-08-16 22:17:34,561 basehttp 7672 8964 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2023-08-24 21:27:00,974 autoreload 3672 6908 Watching for file changes with StatReloader
+WARNING 2023-08-24 21:27:05,001 log 3672 6084 Not Found: /
+WARNING 2023-08-24 21:27:05,054 basehttp 3672 6084 "GET / HTTP/1.1" 404 2278
+WARNING 2023-08-24 21:27:05,516 log 3672 6084 Not Found: /favicon.ico
+WARNING 2023-08-24 21:27:05,522 basehttp 3672 6084 "GET /favicon.ico HTTP/1.1" 404 2329
+INFO 2023-08-24 21:27:15,446 basehttp 3672 6084 "GET /les3 HTTP/1.1" 301 0
+INFO 2023-08-24 21:27:15,480 basehttp 3672 5592 "GET /les3/ HTTP/1.1" 200 592
+INFO 2023-08-24 21:29:05,421 basehttp 3672 5592 "GET /les3/posts/2022 HTTP/1.1" 301 0
+INFO 2023-08-24 21:29:05,427 basehttp 3672 8048 "GET /les3/posts/2022/ HTTP/1.1" 200 19
+INFO 2023-08-24 21:29:17,612 basehttp 3672 8048 "GET /les3/posts/2022/6 HTTP/1.1" 301 0
+INFO 2023-08-24 21:29:17,616 basehttp 3672 7188 "GET /les3/posts/2022/6/ HTTP/1.1" 200 21
+INFO 2023-08-24 21:29:26,279 basehttp 3672 7188 "GET /les3/posts/2022/6/python/ HTTP/1.1" 200 367
+INFO 2023-08-24 21:29:48,791 basehttp 3672 7188 "GET /les3/if HTTP/1.1" 301 0
+INFO 2023-08-24 21:29:48,831 basehttp 3672 3708 "GET /les3/if/ HTTP/1.1" 200 830
+WARNING 2023-08-24 21:30:03,784 log 3672 3708 Not Found: /les3/for
+WARNING 2023-08-24 21:30:03,785 basehttp 3672 3708 "GET /les3/for HTTP/1.1" 404 3535
+INFO 2023-08-24 21:31:51,274 autoreload 3672 6908 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:31:52,293 autoreload 8072 7488 Watching for file changes with StatReloader
+INFO 2023-08-24 21:32:33,612 autoreload 8072 7488 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:32:35,196 autoreload 7144 3048 Watching for file changes with StatReloader
+INFO 2023-08-24 21:33:15,864 autoreload 7144 3048 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:33:16,856 autoreload 7916 7968 Watching for file changes with StatReloader
+INFO 2023-08-24 21:33:45,874 autoreload 7916 7968 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:33:47,211 autoreload 4784 5404 Watching for file changes with StatReloader
+INFO 2023-08-24 21:33:47,875 basehttp 4784 6232 "GET /les3/for HTTP/1.1" 301 0
+INFO 2023-08-24 21:33:47,883 basehttp 4784 664 "GET /les3/for/ HTTP/1.1" 200 1297
+INFO 2023-08-24 21:37:41,905 autoreload 4784 5404 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:37:43,625 autoreload 3516 7532 Watching for file changes with StatReloader
+INFO 2023-08-24 21:38:22,678 autoreload 3516 7532 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:38:24,393 autoreload 3380 3736 Watching for file changes with StatReloader
+INFO 2023-08-24 21:38:38,131 autoreload 3380 3736 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:38:39,649 autoreload 460 4820 Watching for file changes with StatReloader
+INFO 2023-08-24 21:38:54,516 autoreload 460 4820 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:38:56,162 autoreload 7848 5184 Watching for file changes with StatReloader
+INFO 2023-08-24 21:39:34,928 autoreload 7848 5184 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:39:35,945 autoreload 4232 3388 Watching for file changes with StatReloader
+INFO 2023-08-24 21:40:30,350 autoreload 4232 3388 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:40:31,719 autoreload 3372 6064 Watching for file changes with StatReloader
+INFO 2023-08-24 21:45:10,838 autoreload 3372 6064 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:45:12,252 autoreload 8116 6432 Watching for file changes with StatReloader
+INFO 2023-08-24 21:49:51,575 autoreload 8116 6432 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:49:53,042 autoreload 4292 4576 Watching for file changes with StatReloader
+INFO 2023-08-24 21:50:20,053 autoreload 4292 4576 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:50:22,114 autoreload 6292 4240 Watching for file changes with StatReloader
+INFO 2023-08-24 21:50:49,172 autoreload 6292 4240 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:50:50,988 autoreload 7152 7664 Watching for file changes with StatReloader
+INFO 2023-08-24 21:51:25,306 autoreload 7152 7664 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:51:26,648 autoreload 3968 6008 Watching for file changes with StatReloader
+INFO 2023-08-24 21:52:09,154 autoreload 3968 6008 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:52:10,121 autoreload 6392 5888 Watching for file changes with StatReloader
+INFO 2023-08-24 21:52:31,016 autoreload 6392 5888 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:52:32,793 autoreload 6964 1620 Watching for file changes with StatReloader
+INFO 2023-08-24 22:05:44,459 autoreload 6964 1620 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 22:05:45,493 autoreload 7980 6864 Watching for file changes with StatReloader
+INFO 2023-08-24 22:07:24,192 autoreload 7980 6864 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 22:07:25,289 autoreload 6644 6072 Watching for file changes with StatReloader
+INFO 2023-08-24 22:08:19,236 autoreload 6644 6072 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py changed, reloading.
+INFO 2023-08-24 22:08:21,553 autoreload 7372 7988 Watching for file changes with StatReloader
+INFO 2023-08-24 22:10:10,381 autoreload 7372 7988 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 22:10:11,959 autoreload 7352 5804 Watching for file changes with StatReloader
+INFO 2023-08-24 22:10:22,018 basehttp 7352 6784 "GET /les3/index HTTP/1.1" 301 0
+ERROR 2023-08-24 22:10:22,440 log 7352 2536 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "extends'app/base.html'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py", line 115, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'extends'app/base.html''. Did you forget to register or load this tag?
+ERROR 2023-08-24 22:10:22,455 basehttp 7352 2536 "GET /les3/index/ HTTP/1.1" 500 148832
+ERROR 2023-08-24 22:10:38,006 log 7352 2536 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "extends'app/base.html'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py", line 115, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'extends'app/base.html''. Did you forget to register or load this tag?
+ERROR 2023-08-24 22:10:38,013 basehttp 7352 2536 "GET /les3/index/ HTTP/1.1" 500 148832
+INFO 2023-08-24 22:10:47,203 basehttp 7352 2536 "GET /les3/about HTTP/1.1" 301 0
+INFO 2023-08-24 22:10:47,211 basehttp 7352 5960 "GET /les3/about/ HTTP/1.1" 200 507
+ERROR 2023-08-24 22:14:06,388 log 7352 5960 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "extends'app/base.html'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py", line 115, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'extends'app/base.html''. Did you forget to register or load this tag?
+ERROR 2023-08-24 22:14:06,398 basehttp 7352 5960 "GET /les3/index/ HTTP/1.1" 500 148832
+ERROR 2023-08-24 22:15:23,052 log 7352 5960 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "extends'app/base.html'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py", line 115, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'extends'app/base.html''. Did you forget to register or load this tag?
+ERROR 2023-08-24 22:15:23,057 basehttp 7352 5960 "GET /les3/index/ HTTP/1.1" 500 148969
+ERROR 2023-08-24 22:16:13,572 log 7352 5960 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "extends'app/base.html'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py", line 115, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 21: 'extends'app/base.html''. Did you forget to register or load this tag?
+ERROR 2023-08-24 22:16:13,576 basehttp 7352 5960 "GET /les3/index/ HTTP/1.1" 500 148840
+ERROR 2023-08-24 22:16:14,377 log 7352 5960 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "extends'app/base.html'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py", line 115, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 21: 'extends'app/base.html''. Did you forget to register or load this tag?
+ERROR 2023-08-24 22:16:14,382 basehttp 7352 5960 "GET /les3/index/ HTTP/1.1" 500 148840
+ERROR 2023-08-24 22:16:15,291 log 7352 5960 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "extends'app/base.html'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py", line 115, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 21: 'extends'app/base.html''. Did you forget to register or load this tag?
+ERROR 2023-08-24 22:16:15,295 basehttp 7352 5960 "GET /les3/index/ HTTP/1.1" 500 148840
+ERROR 2023-08-24 22:16:40,594 log 7352 5960 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "extends'app/base.html'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py", line 115, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 21: 'extends'app/base.html''. Did you forget to register or load this tag?
+ERROR 2023-08-24 22:16:40,598 basehttp 7352 5960 "GET /les3/index/ HTTP/1.1" 500 148840
+ERROR 2023-08-24 22:16:41,169 log 7352 5960 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "extends'app/base.html'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py", line 115, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 21: 'extends'app/base.html''. Did you forget to register or load this tag?
+ERROR 2023-08-24 22:16:41,175 basehttp 7352 5960 "GET /les3/index/ HTTP/1.1" 500 148840
+INFO 2023-08-24 22:17:01,556 basehttp 7352 5960 "GET /les3/index/ HTTP/1.1" 200 494
+INFO 2023-08-24 22:18:02,709 autoreload 7352 5804 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\lessonproject\settings.py changed, reloading.
+INFO 2023-08-24 22:18:04,430 autoreload 4636 5852 Watching for file changes with StatReloader
+INFO 2023-08-24 22:28:33,536 basehttp 4636 7292 "GET /les3/index/ HTTP/1.1" 200 608
+INFO 2023-08-24 22:28:40,671 basehttp 4636 7292 "GET /les3/about/ HTTP/1.1" 200 507
+INFO 2023-08-24 22:29:38,323 autoreload 4636 5852 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\lessonproject\urls.py changed, reloading.
+INFO 2023-08-24 22:29:39,800 autoreload 6192 6196 Watching for file changes with StatReloader
+INFO 2023-08-24 22:30:24,854 autoreload 6192 6196 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\lessonproject\urls.py changed, reloading.
+INFO 2023-08-24 22:30:25,743 autoreload 5276 5896 Watching for file changes with StatReloader
+INFO 2023-08-24 22:31:00,307 basehttp 5276 4164 "GET /les3/about/ HTTP/1.1" 200 507
+INFO 2023-08-24 22:31:05,849 basehttp 5276 4164 "GET / HTTP/1.1" 200 608
+INFO 2023-08-24 22:36:54,318 autoreload 5276 5896 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp2\models.py changed, reloading.
+INFO 2023-08-24 22:36:55,717 autoreload 2764 6588 Watching for file changes with StatReloader
+INFO 2023-08-24 22:38:05,428 autoreload 2764 6588 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp2\models.py changed, reloading.
+INFO 2023-08-24 22:38:06,593 autoreload 3112 5492 Watching for file changes with StatReloader
+INFO 2023-08-24 22:39:01,079 autoreload 3112 5492 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp2\models.py changed, reloading.
+INFO 2023-08-24 22:39:01,979 autoreload 3032 3356 Watching for file changes with StatReloader
+INFO 2023-08-24 22:40:03,523 autoreload 3032 3356 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp2\models.py changed, reloading.
+INFO 2023-08-24 22:40:04,840 autoreload 6104 5848 Watching for file changes with StatReloader
+INFO 2023-08-24 22:40:22,301 autoreload 6104 5848 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp2\models.py changed, reloading.
+INFO 2023-08-24 22:40:23,233 autoreload 2420 6660 Watching for file changes with StatReloader
+INFO 2023-08-24 22:40:48,292 autoreload 2420 6660 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp2\models.py changed, reloading.
+INFO 2023-08-24 22:40:49,581 autoreload 6912 7056 Watching for file changes with StatReloader
+INFO 2023-08-24 22:41:05,712 autoreload 6912 7056 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp2\models.py changed, reloading.
+INFO 2023-08-24 22:41:06,605 autoreload 7372 3628 Watching for file changes with StatReloader
+INFO 2023-08-24 22:41:20,098 autoreload 7372 3628 C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp2\models.py changed, reloading.
+INFO 2023-08-24 22:41:22,185 autoreload 8116 752 Watching for file changes with StatReloader
+INFO 2023-08-24 23:18:26,356 autoreload 4492 4036 Watching for file changes with StatReloader
+ERROR 2023-08-24 23:18:33,516 log 4492 7868 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py", line 117, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+ERROR 2023-08-24 23:18:33,529 basehttp 4492 7868 "GET / HTTP/1.1" 500 159735
+INFO 2023-08-24 23:27:27,027 autoreload 3172 7096 Watching for file changes with StatReloader
+ERROR 2023-08-24 23:28:19,950 log 3172 5736 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py", line 117, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+ERROR 2023-08-24 23:28:19,958 basehttp 3172 5736 "GET / HTTP/1.1" 500 159328
+INFO 2023-08-24 23:28:38,045 basehttp 3172 5736 "GET /les3/author/5 HTTP/1.1" 301 0
+ERROR 2023-08-24 23:28:38,128 log 3172 7108 Internal Server Error: /les3/author/5/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\lessonproject\myapp3\views.py", line 127, in author_posts
+    return render(request, 'myapp3/author_posts.html', {'author': author, 'posts': posts})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+ERROR 2023-08-24 23:28:38,137 basehttp 3172 7108 "GET /les3/author/5/ HTTP/1.1" 500 163585
+INFO 2023-08-24 23:34:01,584 autoreload 5684 4212 Watching for file changes with StatReloader
+INFO 2023-08-24 23:34:17,277 basehttp 5684 6380 "GET / HTTP/1.1" 200 531
+INFO 2023-08-24 23:34:30,517 basehttp 5684 6380 "GET /les3 HTTP/1.1" 301 0
+INFO 2023-08-24 23:34:30,522 basehttp 5684 6980 "GET /les3/ HTTP/1.1" 200 592
+INFO 2023-08-24 23:34:54,850 basehttp 5684 6980 "GET /les3/post/48 HTTP/1.1" 301 0
+INFO 2023-08-24 23:34:54,860 basehttp 5684 6500 "GET /les3/post/48/ HTTP/1.1" 200 648
+INFO 2023-08-24 23:35:34,257 basehttp 5684 2244 "GET /les3/author/5/ HTTP/1.1" 200 1312
+INFO 2023-08-24 23:35:36,995 basehttp 5684 2244 "GET /les3/post/35/ HTTP/1.1" 200 669
+INFO 2023-08-24 23:35:38,848 basehttp 5684 2244 "GET /les3/post/33/ HTTP/1.1" 200 634
+INFO 2023-08-24 23:35:40,832 basehttp 5684 2244 "GET /les3/post/31/ HTTP/1.1" 200 636
