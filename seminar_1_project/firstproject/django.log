@@ -3,3 +3,6 @@
 "GET /coin/ HTTP/1.1" 200 85
 "GET /rand100 HTTP/1.1" 301 0
 "GET /rand100/ HTTP/1.1" 200 77
+Watching for file changes with StatReloader
+C:\Users\׀איאם\PycharmProjects\educDjango\seminar_1_project\firstproject\myapp2\urls.py changed, reloading.
+Watching for file changes with StatReloader
