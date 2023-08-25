@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e28e31d-a3ac-46fa-aee8-2edd2ddd57d8" name="Changes" comment="?" />
+    <list default="true" id="5e28e31d-a3ac-46fa-aee8-2edd2ddd57d8" name="Changes" comment="q">
+      <change afterPath="$PROJECT_DIR$/lessonproject/myapp3/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp/templates/myapp/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp/templates/myapp/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp3/templates/myapp3/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp3/templates/myapp3/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp3/templates/myapp3/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/educDjango.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/educDjango.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_1_project/firstproject/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/django.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_1_project/firstproject/firstproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/firstproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,13 +25,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw_1" />
+        <entry key="$PROJECT_DIR$" value="hw_2_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,24 +44,29 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2U4ljjZxiF0jP7oWGr2M9i8zz5z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Райан/PycharmProjects/educDjango&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "last_opened_file_path": "C:/Users/Райан/PycharmProjects/educDjango/seminar_1_project/firstproject/myapp3",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Райан\PycharmProjects\educDjango\seminar_1_project\firstproject\myapp3" />
       <recent name="C:\Users\Райан\PycharmProjects\educDjango\seminar_1_project" />
       <recent name="C:\Users\Райан\PycharmProjects\educDjango\homework_project\hw_1\myproject\myapp" />
       <recent name="C:\Users\Райан\PycharmProjects\educDjango\homework_project\hw_1\myproject" />
@@ -128,6 +148,10 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/seminar_1_project/firstproject/myapp2/management/commands/create_article.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

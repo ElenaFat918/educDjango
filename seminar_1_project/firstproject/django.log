@@ -6,3 +6,88 @@
 Watching for file changes with StatReloader
 C:\Users\׀איאם\PycharmProjects\educDjango\seminar_1_project\firstproject\myapp2\urls.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 65
+"GET /coin HTTP/1.1" 301 0
+"GET /coin/ HTTP/1.1" 200 83
+"GET / HTTP/1.1" 200 65
+C:\Users\׀איאם\PycharmProjects\educDjango\seminar_1_project\firstproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 65
+"GET /coin/ HTTP/1.1" 200 85
+C:\Users\׀איאם\PycharmProjects\educDjango\seminar_1_project\firstproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_client_ip HTTP/1.1" 301 0
+Internal Server Error: /get_client_ip/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+"GET /get_client_ip/ HTTP/1.1" 500 63875
+C:\Users\׀איאם\PycharmProjects\educDjango\seminar_1_project\firstproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about HTTP/1.1" 301 0
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+"GET /about/ HTTP/1.1" 500 63795
+C:\Users\׀איאם\PycharmProjects\educDjango\seminar_1_project\firstproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+"GET /about/ HTTP/1.1" 500 63932
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\׀איאם\PycharmProjects\educDjango\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+"GET /about/ HTTP/1.1" 500 63932
+C:\Users\׀איאם\PycharmProjects\educDjango\seminar_1_project\firstproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\׀איאם\PycharmProjects\educDjango\seminar_1_project\firstproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\׀איאם\PycharmProjects\educDjango\seminar_1_project\firstproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /about/
+"GET /about/ HTTP/1.1" 404 2763
+"GET /coin/ HTTP/1.1" 200 83
+"GET /coin/ HTTP/1.1" 200 83
+"GET /coin/ HTTP/1.1" 200 83
+"GET /coin/ HTTP/1.1" 200 83
+"GET /coin/ HTTP/1.1" 200 85
+"GET /coin/ HTTP/1.1" 200 83
+"GET /coin/ HTTP/1.1" 200 85
+"GET /coin/ HTTP/1.1" 200 83
