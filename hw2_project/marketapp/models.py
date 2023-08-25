@@ -25,9 +25,10 @@ class Product(models.Model):
 
 class Order(models.Model):
     customer = models.ForeignKey(User, on_delete=models.CASCADE)  # Клиент может иметь несколько заказов.
-    products = models.ManyToManyField(Product)  # Заказ может содержать несколько товаров.Товар может входить в несколько заказов.
-    total_price = models.DecimalField(max_digits=8, decimal_places=2)
+    products = models.ManyToManyField(
+        Product)  # Заказ может содержать несколько товаров.Товар может входить в несколько заказов.
+    total_price = models.DecimalField(max_digits=8, decimal_places=2, default=0.0)
     date_ordered = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f'{self.customer} {self.products} {self.total_price} {self.date_ordered}'
+        return f'{self.customer} {self.total_price} {self.date_ordered}'
