@@ -38,3 +38,8 @@ def rand100(request):
     result = randint(0, 100)
     logger.info(f'Сгенерировано значение - {str(result)}')
     return HttpResponse(text(title, result))
+
+
+def about(request):
+    logger.info('About page was visited')
+    return HttpResponse('Something about us')
