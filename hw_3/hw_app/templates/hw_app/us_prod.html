@@ -10,6 +10,7 @@
         <ol>
             {% for el in user_products %}
                 <li>
+                    {{ add_day }}<br>
                     {{ el.name }} - <b>{{ el.price }}</b>
                 </li>
             {% endfor %}

@@ -11,7 +11,11 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         count = kwargs.get('count')
         for i in range(1, count + 1):
-            client = User(name=f'client{i}', email=f'mail{i}@mail.ru', telcontact=898765432+i, adress=f'adress{i}')
+            client = User(name=f'client{i}',
+                          email=f'mail{i}@mail.ru',
+                          telcontact=898765432+i,
+                          adress=f'adress{i}',
+                          )
             client.save()
         for j in range(1, count * 5):
             product = Product(name=f'NameProduct{j}',
