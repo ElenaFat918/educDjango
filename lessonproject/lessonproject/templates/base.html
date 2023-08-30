@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+        <title>{% block title %}Формы{% endblock %}</title>
+</head>
+<body>
+    {% block content %}
+        Контент скоро появится...
+    {% endblock %}
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ru"><head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+</head>
+<body wfd-invisible="true">
+    <label for="id_name">Name:</label>
+    <input type="text" name="name" maxlength="50" required=""id="id_name">
+    <label for="id_email">Email:</label>
+    <input type="email" name="email" required="" id="id_email">
+    <label for="id_age">Age:</label>
+    <input type="number" name="age" min="0" max="120" required=""id="id_age">
+</body>
+</html>

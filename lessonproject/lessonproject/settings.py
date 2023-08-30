@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'lessonapp',
     'myapp2',
     'myapp3',
+    'myapp4',
 ]
 
 MIDDLEWARE = [
@@ -58,9 +59,7 @@ ROOT_URLCONF = 'lessonproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [
-            BASE_DIR / 'templates',
-        ],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

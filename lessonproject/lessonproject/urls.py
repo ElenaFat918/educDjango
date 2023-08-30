@@ -16,15 +16,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from myapp3.views import index
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('prefix/', include('lessonapp.urls')),
     path('les3/', include('myapp3.urls')),
-    path('', index),
+    # path('', index('myapp3.urls')),
+    path('les4/', include('myapp4.urls')),
 ]
+
 """
 ● Импортируется модуль admin из пакета django.contrib. 
 С встроенной админкой мы будем работать в рамках курса. 
@@ -35,4 +36,9 @@ urlpatterns = [
 начинающийся с префикса "admin/" и передавать управление в модуль admin.site.urls. 
 ● Добавляется маршрут для приложения myapp, который будет обрабатывать пустой URL-адрес 
 и передавать управление в модуль myapp.urls. Маршрут включается с помощью функции include. 
+
+Добавляется маршрут для приложения myapp3, который будет обрабатывать
+URL-адрес les3 в качестве префикса. В случае его совпадения передавать
+управление в модуль myapp3.urls. Маршрут включается с помощью функции include,
+а дальнейшая обработка адреса происходит в urls.py приложения. 
 """

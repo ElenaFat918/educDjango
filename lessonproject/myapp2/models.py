@@ -9,16 +9,14 @@ class User(models.Model):
     # def __str__(self):
     #     return f'Username: {self.name}, email: {self.email}, age:{self.age}'
 
-
 class Product(models.Model):
     name = models.CharField(max_length=100)
     price = models.DecimalField(max_digits=8, decimal_places=2)
     description = models.TextField()
     image = models.ImageField(upload_to='products/')
 
-
 class Order(models.Model):
-    customer = models.ForeignKey(User, on_delete=models.CASCADE)  # при удалении пользователя удаляются и все заказы
+    customer = models.ForeignKey(User, on_delete=models.CASCADE) # при удалении пользователя удаляются и все заказы
     products = models.ManyToManyField(Product)
     date_ordered = models.DateTimeField(auto_now_add=True)
     total_price = models.DecimalField(max_digits=8, decimal_places=2)
@@ -29,7 +27,6 @@ class Order(models.Model):
     ● products = models.ManyToManyField(Product) - заказ может содержать
     несколько разных продуктов. А продукт может входить в состав
     нескольких разных заказов """
-
 
 #     class Author(models.Model):
 #     name = models.CharField(max_length=100)
@@ -57,13 +54,13 @@ class Order(models.Model):
 #     title = models.CharField(max_length=100)
 #     content = models.TextField()
 #     author = models.ForeignKey(Author, on_delete=models.CASCADE)
-
+    
 #     def __str__(self):
 #         return f'Title is {self.title}'
 
 #     def get_summary(self):
 #         words = self.content.split()
-#         return f'{" ".join(words[:12])}...'
+#         return f'{" ".join(words[:12])}...'    
 """
 Здесь мы создаем метод "get_summary", который возвращает первые 12 слов
 контента поста и добавляет многоточие в конце.
