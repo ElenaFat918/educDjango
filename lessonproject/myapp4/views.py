@@ -46,7 +46,7 @@ def many_fields_form(request):
         m = ManyFieldsForm()
     return render(request, 'myapp4/many_fields_form.html', {'form': form})
 
-    """
+"""
     Стандартный вывод пустой формы при GET запросе и формирование формы с данными при POST запросе с последующей 
     проверкой и возможной обработкой.
 """
