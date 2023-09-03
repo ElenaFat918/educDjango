@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22587969-a675-416a-a777-b6eef57cc946" name="Changes" comment="дз_4">
-      <change afterPath="$PROJECT_DIR$/lessonproject/myapp5/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="22587969-a675-416a-a777-b6eef57cc946" name="Changes" comment="дз5  добавлен админ (admin admin), добавлен пользователь User_adm(User_adm, U1234567), Oper (Oper,O1234567). Добавлены  возможности админки в рамках списка значений">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessonproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/lessonproject/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessonproject/lessonproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessonproject/lessonproject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessonproject/log/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/lessonproject/log/django.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessonproject/myapp2/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessonproject/myapp2/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessonproject/myapp2/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessonproject/myapp2/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessonproject/myapp3/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessonproject/myapp3/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessonproject/myapp3/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessonproject/myapp3/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessonproject/myapp4/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessonproject/myapp4/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,21 +43,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Райан/PycharmProjects/educDjango/myproject",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Райан/PycharmProjects/educDjango/myproject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Райан\PycharmProjects\educDjango\myproject" />
@@ -144,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693666387931</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Лекция 5  Работа с административной панелью">
+      <created>1693683230311</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693683230311</updated>
+    </task>
+    <task id="LOCAL-00006" summary="дз5  добавлен админ (admin admin), добавлен пользователь User_adm(User_adm, U1234567), Oper (Oper,O1234567). Добавлены  возможности админки в рамках списка значений">
+      <created>1693738034341</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693738034341</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +184,9 @@
     <MESSAGE value="?" />
     <MESSAGE value="семинар3" />
     <MESSAGE value="дз_4" />
-    <option name="LAST_COMMIT_MESSAGE" value="дз_4" />
+    <MESSAGE value="Лекция 5  Работа с административной панелью" />
+    <MESSAGE value="дз5  добавлен админ (admin admin), добавлен пользователь User_adm(User_adm, U1234567), Oper (Oper,O1234567). Добавлены  возможности админки в рамках списка значений" />
+    <option name="LAST_COMMIT_MESSAGE" value="дз5  добавлен админ (admin admin), добавлен пользователь User_adm(User_adm, U1234567), Oper (Oper,O1234567). Добавлены  возможности админки в рамках списка значений" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
