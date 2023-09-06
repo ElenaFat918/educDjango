@@ -23,13 +23,11 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="2b8c653e-deb5-4f36-aa2d-068934f5d56c" object-ref="schemas/main/tables/myapp5_category" />
-      <object connection-id="2b8c653e-deb5-4f36-aa2d-068934f5d56c" object-ref="schemas/main/tables/auth_user" />
-      <object connection-id="2b8c653e-deb5-4f36-aa2d-068934f5d56c" object-ref="schemas/main/tables/myapp5_product" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="00dc7d48-a232-4fcd-b60d-1571cee95ddb" dataset="main.myapp5_category" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="00dc7d48-a232-4fcd-b60d-1571cee95ddb" dataset="main.myapp5_product" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="00dc7d48-a232-4fcd-b60d-1571cee95ddb" dataset="main.hw_app_product" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="2b8c653e-deb5-4f36-aa2d-068934f5d56c" dataset="main.myapp5_category" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="2b8c653e-deb5-4f36-aa2d-068934f5d56c" dataset="main.auth_user" active-filter-id="EMPTY_FILTER" />
