@@ -1,0 +1,723 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>venv\r\nExternal Libraries\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision a01e95d730349633dcdb42a5c93801e6608ed0eb)
++++ b/.gitignore	(date 1693424508932)
+@@ -1,2 +1,17 @@
+ venv
+ External Libraries
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_16_57__Changes_.xml
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_16_55_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_16_55_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_16_55_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_16_57_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_19_05_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_16_55__Changes_.xml
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_19_05__Changes_.xml
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_16_55_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_16_57_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_19_05_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_16_55_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_16_57_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_19_05_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_08_2023_16_55_[Changes]/shelved.patch
+Index: .idea/dbnavigator.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"DBNavigator.Project.DataEditorManager\">\r\n    <record-view-column-sorting-type value=\"BY_INDEX\" />\r\n    <value-preview-text-wrapping value=\"false\" />\r\n    <value-preview-pinned value=\"false\" />\r\n  </component>\r\n  <component name=\"DBNavigator.Project.DatabaseBrowserManager\">\r\n    <autoscroll-to-editor value=\"false\" />\r\n    <autoscroll-from-editor value=\"true\" />\r\n    <show-object-properties value=\"true\" />\r\n    <loaded-nodes />\r\n  </component>\r\n  <component name=\"DBNavigator.Project.DatabaseEditorStateManager\">\r\n    <last-used-providers />\r\n  </component>\r\n  <component name=\"DBNavigator.Project.DatabaseFileManager\">\r\n    <open-files />\r\n  </component>\r\n  <component name=\"DBNavigator.Project.ObjectQuickFilterManager\">\r\n    <last-used-operator value=\"EQUAL\" />\r\n    <filters />\r\n  </component>\r\n  <component name=\"DBNavigator.Project.Settings\">\r\n    <connections />\r\n    <browser-settings>\r\n      <general>\r\n        <display-mode value=\"TABBED\" />\r\n        <navigation-history-size value=\"100\" />\r\n        <show-object-details value=\"false\" />\r\n      </general>\r\n      <filters>\r\n        <object-type-filter>\r\n          <object-type name=\"SCHEMA\" enabled=\"true\" />\r\n          <object-type name=\"USER\" enabled=\"true\" />\r\n          <object-type name=\"ROLE\" enabled=\"true\" />\r\n          <object-type name=\"PRIVILEGE\" enabled=\"true\" />\r\n          <object-type name=\"CHARSET\" enabled=\"true\" />\r\n          <object-type name=\"TABLE\" enabled=\"true\" />\r\n          <object-type name=\"VIEW\" enabled=\"true\" />\r\n          <object-type name=\"MATERIALIZED_VIEW\" enabled=\"true\" />\r\n          <object-type name=\"NESTED_TABLE\" enabled=\"true\" />\r\n          <object-type name=\"COLUMN\" enabled=\"true\" />\r\n          <object-type name=\"INDEX\" enabled=\"true\" />\r\n          <object-type name=\"CONSTRAINT\" enabled=\"true\" />\r\n          <object-type name=\"DATASET_TRIGGER\" enabled=\"true\" />\r\n          <object-type name=\"DATABASE_TRIGGER\" enabled=\"true\" />\r\n          <object-type name=\"SYNONYM\" enabled=\"true\" />\r\n          <object-type name=\"SEQUENCE\" enabled=\"true\" />\r\n          <object-type name=\"PROCEDURE\" enabled=\"true\" />\r\n          <object-type name=\"FUNCTION\" enabled=\"true\" />\r\n          <object-type name=\"PACKAGE\" enabled=\"true\" />\r\n          <object-type name=\"TYPE\" enabled=\"true\" />\r\n          <object-type name=\"TYPE_ATTRIBUTE\" enabled=\"true\" />\r\n          <object-type name=\"ARGUMENT\" enabled=\"true\" />\r\n          <object-type name=\"DIMENSION\" enabled=\"true\" />\r\n          <object-type name=\"CLUSTER\" enabled=\"true\" />\r\n          <object-type name=\"DBLINK\" enabled=\"true\" />\r\n        </object-type-filter>\r\n      </filters>\r\n      <sorting>\r\n        <object-type name=\"COLUMN\" sorting-type=\"NAME\" />\r\n        <object-type name=\"FUNCTION\" sorting-type=\"NAME\" />\r\n        <object-type name=\"PROCEDURE\" sorting-type=\"NAME\" />\r\n        <object-type name=\"ARGUMENT\" sorting-type=\"POSITION\" />\r\n        <object-type name=\"TYPE ATTRIBUTE\" sorting-type=\"POSITION\" />\r\n      </sorting>\r\n      <default-editors>\r\n        <object-type name=\"VIEW\" editor-type=\"SELECTION\" />\r\n        <object-type name=\"PACKAGE\" editor-type=\"SELECTION\" />\r\n        <object-type name=\"TYPE\" editor-type=\"SELECTION\" />\r\n      </default-editors>\r\n    </browser-settings>\r\n    <navigation-settings>\r\n      <lookup-filters>\r\n        <lookup-objects>\r\n          <object-type name=\"SCHEMA\" enabled=\"true\" />\r\n          <object-type name=\"USER\" enabled=\"false\" />\r\n          <object-type name=\"ROLE\" enabled=\"false\" />\r\n          <object-type name=\"PRIVILEGE\" enabled=\"false\" />\r\n          <object-type name=\"CHARSET\" enabled=\"false\" />\r\n          <object-type name=\"TABLE\" enabled=\"true\" />\r\n          <object-type name=\"VIEW\" enabled=\"true\" />\r\n          <object-type name=\"MATERIALIZED VIEW\" enabled=\"true\" />\r\n          <object-type name=\"INDEX\" enabled=\"true\" />\r\n          <object-type name=\"CONSTRAINT\" enabled=\"true\" />\r\n          <object-type name=\"DATASET TRIGGER\" enabled=\"true\" />\r\n          <object-type name=\"DATABASE TRIGGER\" enabled=\"true\" />\r\n          <object-type name=\"SYNONYM\" enabled=\"false\" />\r\n          <object-type name=\"SEQUENCE\" enabled=\"true\" />\r\n          <object-type name=\"PROCEDURE\" enabled=\"true\" />\r\n          <object-type name=\"FUNCTION\" enabled=\"true\" />\r\n          <object-type name=\"PACKAGE\" enabled=\"true\" />\r\n          <object-type name=\"TYPE\" enabled=\"true\" />\r\n          <object-type name=\"DIMENSION\" enabled=\"false\" />\r\n          <object-type name=\"CLUSTER\" enabled=\"false\" />\r\n          <object-type name=\"DBLINK\" enabled=\"true\" />\r\n        </lookup-objects>\r\n        <force-database-load value=\"false\" />\r\n        <prompt-connection-selection value=\"true\" />\r\n        <prompt-schema-selection value=\"true\" />\r\n      </lookup-filters>\r\n    </navigation-settings>\r\n    <dataset-grid-settings>\r\n      <general>\r\n        <enable-zooming value=\"true\" />\r\n        <enable-column-tooltip value=\"true\" />\r\n      </general>\r\n      <sorting>\r\n        <nulls-first value=\"true\" />\r\n        <max-sorting-columns value=\"4\" />\r\n      </sorting>\r\n      <audit-columns>\r\n        <column-names value=\"\" />\r\n        <visible value=\"true\" />\r\n        <editable value=\"false\" />\r\n      </audit-columns>\r\n    </dataset-grid-settings>\r\n    <dataset-editor-settings>\r\n      <text-editor-popup>\r\n        <active value=\"false\" />\r\n        <active-if-empty value=\"false\" />\r\n        <data-length-threshold value=\"100\" />\r\n        <popup-delay value=\"1000\" />\r\n      </text-editor-popup>\r\n      <values-actions-popup>\r\n        <show-popup-button value=\"true\" />\r\n        <element-count-threshold value=\"1000\" />\r\n        <data-length-threshold value=\"250\" />\r\n      </values-actions-popup>\r\n      <general>\r\n        <fetch-block-size value=\"100\" />\r\n        <fetch-timeout value=\"30\" />\r\n        <trim-whitespaces value=\"true\" />\r\n        <convert-empty-strings-to-null value=\"true\" />\r\n        <select-content-on-cell-edit value=\"true\" />\r\n        <large-value-preview-active value=\"true\" />\r\n      </general>\r\n      <filters>\r\n        <prompt-filter-dialog value=\"true\" />\r\n        <default-filter-type value=\"BASIC\" />\r\n      </filters>\r\n      <qualified-text-editor text-length-threshold=\"300\">\r\n        <content-types>\r\n          <content-type name=\"Text\" enabled=\"true\" />\r\n          <content-type name=\"Properties\" enabled=\"true\" />\r\n          <content-type name=\"XML\" enabled=\"true\" />\r\n          <content-type name=\"DTD\" enabled=\"true\" />\r\n          <content-type name=\"HTML\" enabled=\"true\" />\r\n          <content-type name=\"XHTML\" enabled=\"true\" />\r\n          <content-type name=\"SQL\" enabled=\"true\" />\r\n          <content-type name=\"PL/SQL\" enabled=\"true\" />\r\n          <content-type name=\"JSON\" enabled=\"true\" />\r\n          <content-type name=\"JSON5\" enabled=\"true\" />\r\n          <content-type name=\"YAML\" enabled=\"true\" />\r\n        </content-types>\r\n      </qualified-text-editor>\r\n      <record-navigation>\r\n        <navigation-target value=\"VIEWER\" />\r\n      </record-navigation>\r\n    </dataset-editor-settings>\r\n    <code-editor-settings>\r\n      <general>\r\n        <show-object-navigation-gutter value=\"false\" />\r\n        <show-spec-declaration-navigation-gutter value=\"true\" />\r\n        <enable-spellchecking value=\"true\" />\r\n        <enable-reference-spellchecking value=\"false\" />\r\n      </general>\r\n      <confirmations>\r\n        <save-changes value=\"false\" />\r\n        <revert-changes value=\"true\" />\r\n      </confirmations>\r\n    </code-editor-settings>\r\n    <code-completion-settings>\r\n      <filters>\r\n        <basic-filter>\r\n          <filter-element type=\"RESERVED_WORD\" id=\"keyword\" selected=\"true\" />\r\n          <filter-element type=\"RESERVED_WORD\" id=\"function\" selected=\"true\" />\r\n          <filter-element type=\"RESERVED_WORD\" id=\"parameter\" selected=\"true\" />\r\n          <filter-element type=\"RESERVED_WORD\" id=\"datatype\" selected=\"true\" />\r\n          <filter-element type=\"RESERVED_WORD\" id=\"exception\" selected=\"true\" />\r\n          <filter-element type=\"OBJECT\" id=\"schema\" selected=\"true\" />\r\n          <filter-element type=\"OBJECT\" id=\"role\" selected=\"true\" />\r\n          <filter-element type=\"OBJECT\" id=\"user\" selected=\"true\" />\r\n          <filter-element type=\"OBJECT\" id=\"privilege\" selected=\"true\" />\r\n          <user-schema>\r\n            <filter-element type=\"OBJECT\" id=\"table\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"view\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"materialized view\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"index\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"constraint\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"trigger\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"synonym\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"sequence\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"procedure\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"function\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"package\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"type\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"dimension\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"cluster\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"dblink\" selected=\"true\" />\r\n          </user-schema>\r\n          <public-schema>\r\n            <filter-element type=\"OBJECT\" id=\"table\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"view\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"materialized view\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"index\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"constraint\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"trigger\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"synonym\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"sequence\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"procedure\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"function\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"package\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"type\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"dimension\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"cluster\" selected=\"false\" />\r\n            <filter-element type=\"OBJECT\" id=\"dblink\" selected=\"false\" />\r\n          </public-schema>\r\n          <any-schema>\r\n            <filter-element type=\"OBJECT\" id=\"table\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"view\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"materialized view\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"index\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"constraint\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"trigger\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"synonym\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"sequence\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"procedure\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"function\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"package\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"type\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"dimension\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"cluster\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"dblink\" selected=\"true\" />\r\n          </any-schema>\r\n        </basic-filter>\r\n        <extended-filter>\r\n          <filter-element type=\"RESERVED_WORD\" id=\"keyword\" selected=\"true\" />\r\n          <filter-element type=\"RESERVED_WORD\" id=\"function\" selected=\"true\" />\r\n          <filter-element type=\"RESERVED_WORD\" id=\"parameter\" selected=\"true\" />\r\n          <filter-element type=\"RESERVED_WORD\" id=\"datatype\" selected=\"true\" />\r\n          <filter-element type=\"RESERVED_WORD\" id=\"exception\" selected=\"true\" />\r\n          <filter-element type=\"OBJECT\" id=\"schema\" selected=\"true\" />\r\n          <filter-element type=\"OBJECT\" id=\"user\" selected=\"true\" />\r\n          <filter-element type=\"OBJECT\" id=\"role\" selected=\"true\" />\r\n          <filter-element type=\"OBJECT\" id=\"privilege\" selected=\"true\" />\r\n          <user-schema>\r\n            <filter-element type=\"OBJECT\" id=\"table\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"view\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"materialized view\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"index\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"constraint\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"trigger\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"synonym\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"sequence\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"procedure\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"function\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"package\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"type\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"dimension\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"cluster\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"dblink\" selected=\"true\" />\r\n          </user-schema>\r\n          <public-schema>\r\n            <filter-element type=\"OBJECT\" id=\"table\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"view\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"materialized view\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"index\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"constraint\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"trigger\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"synonym\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"sequence\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"procedure\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"function\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"package\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"type\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"dimension\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"cluster\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"dblink\" selected=\"true\" />\r\n          </public-schema>\r\n          <any-schema>\r\n            <filter-element type=\"OBJECT\" id=\"table\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"view\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"materialized view\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"index\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"constraint\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"trigger\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"synonym\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"sequence\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"procedure\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"function\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"package\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"type\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"dimension\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"cluster\" selected=\"true\" />\r\n            <filter-element type=\"OBJECT\" id=\"dblink\" selected=\"true\" />\r\n          </any-schema>\r\n        </extended-filter>\r\n      </filters>\r\n      <sorting enabled=\"true\">\r\n        <sorting-element type=\"RESERVED_WORD\" id=\"keyword\" />\r\n        <sorting-element type=\"RESERVED_WORD\" id=\"datatype\" />\r\n        <sorting-element type=\"OBJECT\" id=\"column\" />\r\n        <sorting-element type=\"OBJECT\" id=\"table\" />\r\n        <sorting-element type=\"OBJECT\" id=\"view\" />\r\n        <sorting-element type=\"OBJECT\" id=\"materialized view\" />\r\n        <sorting-element type=\"OBJECT\" id=\"index\" />\r\n        <sorting-element type=\"OBJECT\" id=\"constraint\" />\r\n        <sorting-element type=\"OBJECT\" id=\"trigger\" />\r\n        <sorting-element type=\"OBJECT\" id=\"synonym\" />\r\n        <sorting-element type=\"OBJECT\" id=\"sequence\" />\r\n        <sorting-element type=\"OBJECT\" id=\"procedure\" />\r\n        <sorting-element type=\"OBJECT\" id=\"function\" />\r\n        <sorting-element type=\"OBJECT\" id=\"package\" />\r\n        <sorting-element type=\"OBJECT\" id=\"type\" />\r\n        <sorting-element type=\"OBJECT\" id=\"dimension\" />\r\n        <sorting-element type=\"OBJECT\" id=\"cluster\" />\r\n        <sorting-element type=\"OBJECT\" id=\"dblink\" />\r\n        <sorting-element type=\"OBJECT\" id=\"schema\" />\r\n        <sorting-element type=\"OBJECT\" id=\"role\" />\r\n        <sorting-element type=\"OBJECT\" id=\"user\" />\r\n        <sorting-element type=\"RESERVED_WORD\" id=\"function\" />\r\n        <sorting-element type=\"RESERVED_WORD\" id=\"parameter\" />\r\n      </sorting>\r\n      <format>\r\n        <enforce-code-style-case value=\"true\" />\r\n      </format>\r\n    </code-completion-settings>\r\n    <execution-engine-settings>\r\n      <statement-execution>\r\n        <fetch-block-size value=\"100\" />\r\n        <execution-timeout value=\"20\" />\r\n        <debug-execution-timeout value=\"600\" />\r\n        <focus-result value=\"false\" />\r\n        <prompt-execution value=\"false\" />\r\n      </statement-execution>\r\n      <script-execution>\r\n        <command-line-interfaces />\r\n        <execution-timeout value=\"300\" />\r\n      </script-execution>\r\n      <method-execution>\r\n        <execution-timeout value=\"30\" />\r\n        <debug-execution-timeout value=\"600\" />\r\n        <parameter-history-size value=\"10\" />\r\n      </method-execution>\r\n    </execution-engine-settings>\r\n    <operation-settings>\r\n      <transactions>\r\n        <uncommitted-changes>\r\n          <on-project-close value=\"ASK\" />\r\n          <on-disconnect value=\"ASK\" />\r\n          <on-autocommit-toggle value=\"ASK\" />\r\n        </uncommitted-changes>\r\n        <multiple-uncommitted-changes>\r\n          <on-commit value=\"ASK\" />\r\n          <on-rollback value=\"ASK\" />\r\n        </multiple-uncommitted-changes>\r\n      </transactions>\r\n      <session-browser>\r\n        <disconnect-session value=\"ASK\" />\r\n        <kill-session value=\"ASK\" />\r\n        <reload-on-filter-change value=\"false\" />\r\n      </session-browser>\r\n      <compiler>\r\n        <compile-type value=\"KEEP\" />\r\n        <compile-dependencies value=\"ASK\" />\r\n        <always-show-controls value=\"false\" />\r\n      </compiler>\r\n      <debugger>\r\n        <debugger-type value=\"JDBC\" />\r\n        <use-generic-runners value=\"true\" />\r\n      </debugger>\r\n    </operation-settings>\r\n    <ddl-file-settings>\r\n      <extensions>\r\n        <mapping file-type-id=\"VIEW\" extensions=\"vw\" />\r\n        <mapping file-type-id=\"TRIGGER\" extensions=\"trg\" />\r\n        <mapping file-type-id=\"PROCEDURE\" extensions=\"prc\" />\r\n        <mapping file-type-id=\"FUNCTION\" extensions=\"fnc\" />\r\n        <mapping file-type-id=\"PACKAGE\" extensions=\"pkg\" />\r\n        <mapping file-type-id=\"PACKAGE_SPEC\" extensions=\"pks\" />\r\n        <mapping file-type-id=\"PACKAGE_BODY\" extensions=\"pkb\" />\r\n        <mapping file-type-id=\"TYPE\" extensions=\"tpe\" />\r\n        <mapping file-type-id=\"TYPE_SPEC\" extensions=\"tps\" />\r\n        <mapping file-type-id=\"TYPE_BODY\" extensions=\"tpb\" />\r\n      </extensions>\r\n      <general>\r\n        <lookup-ddl-files value=\"true\" />\r\n        <create-ddl-files value=\"false\" />\r\n        <synchronize-ddl-files value=\"true\" />\r\n        <use-qualified-names value=\"false\" />\r\n        <make-scripts-rerunnable value=\"true\" />\r\n      </general>\r\n    </ddl-file-settings>\r\n    <general-settings>\r\n      <regional-settings>\r\n        <date-format value=\"MEDIUM\" />\r\n        <number-format value=\"UNGROUPED\" />\r\n        <locale value=\"SYSTEM_DEFAULT\" />\r\n        <use-custom-formats value=\"false\" />\r\n      </regional-settings>\r\n      <environment>\r\n        <environment-types>\r\n          <environment-type id=\"development\" name=\"Development\" description=\"Development environment\" color=\"-2430209/-12296320\" readonly-code=\"false\" readonly-data=\"false\" />\r\n          <environment-type id=\"integration\" name=\"Integration\" description=\"Integration environment\" color=\"-2621494/-12163514\" readonly-code=\"true\" readonly-data=\"false\" />\r\n          <environment-type id=\"production\" name=\"Production\" description=\"Productive environment\" color=\"-11574/-10271420\" readonly-code=\"true\" readonly-data=\"true\" />\r\n          <environment-type id=\"other\" name=\"Other\" description=\"\" color=\"-1576/-10724543\" readonly-code=\"false\" readonly-data=\"false\" />\r\n        </environment-types>\r\n        <visibility-settings>\r\n          <connection-tabs value=\"true\" />\r\n          <dialog-headers value=\"true\" />\r\n          <object-editor-tabs value=\"true\" />\r\n          <script-editor-tabs value=\"false\" />\r\n          <execution-result-tabs value=\"true\" />\r\n        </visibility-settings>\r\n      </environment>\r\n    </general-settings>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/dbnavigator.xml b/.idea/dbnavigator.xml
+--- a/.idea/dbnavigator.xml	(revision a01e95d730349633dcdb42a5c93801e6608ed0eb)
++++ b/.idea/dbnavigator.xml	(date 1693424514608)
+@@ -5,21 +5,11 @@
+     <value-preview-text-wrapping value="false" />
+     <value-preview-pinned value="false" />
+   </component>
+-  <component name="DBNavigator.Project.DatabaseBrowserManager">
+-    <autoscroll-to-editor value="false" />
+-    <autoscroll-from-editor value="true" />
+-    <show-object-properties value="true" />
+-    <loaded-nodes />
+-  </component>
+   <component name="DBNavigator.Project.DatabaseEditorStateManager">
+     <last-used-providers />
+   </component>
+   <component name="DBNavigator.Project.DatabaseFileManager">
+     <open-files />
+-  </component>
+-  <component name="DBNavigator.Project.ObjectQuickFilterManager">
+-    <last-used-operator value="EQUAL" />
+-    <filters />
+   </component>
+   <component name="DBNavigator.Project.Settings">
+     <connections />
+Index: lessonproject/myapp4/views.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import logging\r\n\r\nfrom django.core.files.storage import FileSystemStorage\r\nfrom django.shortcuts import render\r\nfrom .forms import UserForm, ManyFieldsForm\r\nfrom .forms import ImageForm\r\nfrom .models import User\r\n\r\nlogger = logging.getLogger(__name__)\r\n\r\n\r\ndef user_form(request):\r\n    if request.method == 'POST':\r\n        form = UserForm(request.POST)\r\n        if form.is_valid():\r\n            name = form.cleaned_data['name']\r\n            email = form.cleaned_data['email']\r\n            age = form.cleaned_data['age']\r\n            # Делаем что-то с данными\r\n            logger.info(f'Получили {name=}, {email=}, {age=}.')\r\n    else:\r\n        form = UserForm()\r\n    return render(\r\n        request,\r\n        'myapp4/user_form.html',\r\n        {'form': form})\r\n\r\n\r\n\"\"\"В данном случае мы импортируем модуль render для рендеринга шаблона, а также\r\nимпортируем нашу форму UserForm. Далее определяем функцию user_form, которая\r\nбудет обрабатывать запросы на адрес /user_form/.\r\nЕсли запрос пришел методом POST, то мы создаем экземпляр формы UserForm с\r\nпереданными данными из запроса. Если форма проходит валидацию (все поля\r\nзаполнены корректно), то мы получаем данные из формы и можем с ними работать.\r\nЕсли запрос пришел методом GET, то мы просто создаем пустой экземпляр формы\r\nUserForm и передаем его в шаблон user_form.html.\"\"\"\r\n\r\n\r\ndef many_fields_form(request):\r\n    if request.method == 'POST':\r\n        form = ManyFieldsForm(request.POST)\r\n        if form.is_valid():\r\n            # Делаем что-то с данными\r\n            logger.info(f'Получили {form.cleaned_data=}.')\r\n    else:\r\n        m = ManyFieldsForm()\r\n    return render(request, 'myapp4/many_fields_form.html', {'form': form})\r\n\r\n    \"\"\"\r\n    Стандартный вывод пустой формы при GET запросе и формирование формы с данными при POST запросе с последующей \r\n    проверкой и возможной обработкой.\r\n\"\"\"\r\n\r\n\r\ndef add_user(request):\r\n    if request.method == 'POST':\r\n        form = UserForm(request.POST)\r\n        message = 'Ошибка в данных'\r\n        if form.is_valid():\r\n            name = form.cleaned_data['name']\r\n            email = form.cleaned_data['email']\r\n            age = form.cleaned_data['age']\r\n            logger.info(f'Получили {name=}, {email=}, {age=}.')\r\n            user = User(name=name, email=email, age=age)\r\n            user.save()\r\n            message = 'Пользователь сохранён'\r\n    else:\r\n        form = UserForm()\r\n        message = 'Заполните форму'\r\n        return render(request, 'myapp4/user_form.html', {'form': form, 'message': message})\r\n\r\n\r\n\"\"\"\r\nЕсли форма отправлена как POST запрос и проверки данных прошли успешно,\r\nполучаем переданные данные и создаём экземпляр класса User. Метод user.save()\r\nсохраняет запись в таблицу БД\r\n\"\"\"\r\n\r\n\r\ndef upload_image(request):\r\n    if request.method == 'POST':\r\n        form = ImageForm(request.POST, request.FILES)\r\n        if form.is_valid():\r\n            image = form.cleaned_data['image']\r\n            fs = FileSystemStorage()\r\n            fs.save(image.name, image)\r\n    else:\r\n        form = ImageForm()\r\n        return render(request, 'myapp4/upload_image.html', {'form': form})\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lessonproject/myapp4/views.py b/lessonproject/myapp4/views.py
+--- a/lessonproject/myapp4/views.py	(revision a01e95d730349633dcdb42a5c93801e6608ed0eb)
++++ b/lessonproject/myapp4/views.py	(date 1693426151350)
+@@ -86,4 +86,4 @@
+             fs.save(image.name, image)
+     else:
+         form = ImageForm()
+-        return render(request, 'myapp4/upload_image.html', {'form': form})
++    return render(request, 'myapp4/upload_image.html', {'form': form})
+Index: lessonproject/lessonproject/urls.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"\r\nURL configuration for lessonproject project.\r\n\r\nThe `urlpatterns` list routes URLs to views. For more information please see:\r\n    https://docs.djangoproject.com/en/4.2/topics/http/urls/\r\nExamples:\r\nFunction views\r\n    1. Add an import:  from my_app import views\r\n    2. Add a URL to urlpatterns:  path('', views.home, name='home')\r\nClass-based views\r\n    1. Add an import:  from other_app.views import Home\r\n    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')\r\nIncluding another URLconf\r\n    1. Import the include() function: from django.urls import include, path\r\n    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))\r\n\"\"\"\r\nfrom django.contrib import admin\r\nfrom django.urls import path, include\r\n\r\n\r\nurlpatterns = [\r\n    path('admin/', admin.site.urls),\r\n    path('prefix/', include('lessonapp.urls')),\r\n    path('les3/', include('myapp3.urls')),\r\n    # path('', index('myapp3.urls')),\r\n    path('les4/', include('myapp4.urls')),\r\n]\r\n\r\n\"\"\"\r\n● Импортируется модуль admin из пакета django.contrib. \r\nС встроенной админкой мы будем работать в рамках курса. \r\n● Импортируется функция path и модуль include из пакета django.urls. \r\nОбе функции нужны для формирования url адресов, на которые будет отвечать сервер \r\n● Создается список urlpatterns, который будет содержать маршруты (routes) для обработки URL-адресов. \r\n● Добавляется маршрут для административной панели Django, который будет обрабатывать URL-адрес, \r\nначинающийся с префикса \"admin/\" и передавать управление в модуль admin.site.urls. \r\n● Добавляется маршрут для приложения myapp, который будет обрабатывать пустой URL-адрес \r\nи передавать управление в модуль myapp.urls. Маршрут включается с помощью функции include. \r\n\r\nДобавляется маршрут для приложения myapp3, который будет обрабатывать\r\nURL-адрес les3 в качестве префикса. В случае его совпадения передавать\r\nуправление в модуль myapp3.urls. Маршрут включается с помощью функции include,\r\nа дальнейшая обработка адреса происходит в urls.py приложения. \r\n\"\"\"\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lessonproject/lessonproject/urls.py b/lessonproject/lessonproject/urls.py
+--- a/lessonproject/lessonproject/urls.py	(revision a01e95d730349633dcdb42a5c93801e6608ed0eb)
++++ b/lessonproject/lessonproject/urls.py	(date 1693426906174)
+@@ -16,13 +16,14 @@
+ """
+ from django.contrib import admin
+ from django.urls import path, include
++# from myapp3.views import index
+ 
+ 
+ urlpatterns = [
+     path('admin/', admin.site.urls),
+     path('prefix/', include('lessonapp.urls')),
+     path('les3/', include('myapp3.urls')),
+-    # path('', index('myapp3.urls')),
++    # path('', index),
+     path('les4/', include('myapp4.urls')),
+ ]
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5e28e31d-a3ac-46fa-aee8-2edd2ddd57d8\" name=\"Changes\" comment=\"семинар3\">\r\n      <change afterPath=\"$PROJECT_DIR$/seminar_1_project/firstproject/myapp2/templates/myapp2/temp1.html\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/seminar_1_project/firstproject/myapp2/urls.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/seminar_1_project/firstproject/myapp3/templates/myapp3/urls.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/seminar_1_project/firstproject/firstproject/urls.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/seminar_1_project/firstproject/firstproject/urls.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/seminar_1_project/firstproject/myapp/urls.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/seminar_1_project/firstproject/myapp/urls.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/seminar_1_project/firstproject/myapp/views.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/seminar_1_project/firstproject/myapp/views.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/seminar_1_project/firstproject/myapp2/views.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/seminar_1_project/firstproject/myapp2/views.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"hw_2_1\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GithubDefaultAccount\">\r\n    <option name=\"defaultAccountId\" value=\"c0ed95e2-ab7b-45ec-bf39-2ef8775851b9\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2U4ljjZxiF0jP7oWGr2M9i8zz5z\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"last_opened_file_path\": \"C:/Users/Райан/PycharmProjects/educDjango/seminar_1_project/firstproject/myapp2\",\r\n    \"settings.editor.selected.configurable\": \"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"ChangesTree.GroupingKeys\": [\r\n      \"directory\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Райан\\PycharmProjects\\educDjango\\seminar_1_project\\firstproject\\myapp2\" />\r\n      <recent name=\"C:\\Users\\Райан\\PycharmProjects\\educDjango\\seminar_1_project\\firstproject\\myapp3\" />\r\n      <recent name=\"C:\\Users\\Райан\\PycharmProjects\\educDjango\\seminar_1_project\" />\r\n      <recent name=\"C:\\Users\\Райан\\PycharmProjects\\educDjango\\homework_project\\hw_1\\myproject\\myapp\" />\r\n      <recent name=\"C:\\Users\\Райан\\PycharmProjects\\educDjango\\homework_project\\hw_1\\myproject\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Райан\\PycharmProjects\\educDjango\\homework_project\\hw_1\\myproject\" />\r\n      <recent name=\"C:\\Users\\Райан\\PycharmProjects\\educDjango\\homework_project\\hw_1\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"educDjango\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5e28e31d-a3ac-46fa-aee8-2edd2ddd57d8\" name=\"Changes\" comment=\"\" />\r\n      <created>1692206876004</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1692206876004</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"добавила .gitignore\">\r\n      <created>1692459859611</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1692459859611</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"?\">\r\n      <created>1692461983475</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1692461983475</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"семинар3\">\r\n      <created>1692992387870</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1692992387870</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"добавила .gitignore\" />\r\n    <MESSAGE value=\"?\" />\r\n    <MESSAGE value=\"семинар3\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"семинар3\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/main.py</url>\r\n          <line>8</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/seminar_1_project/firstproject/myapp2/management/commands/create_article.py</url>\r\n          <option name=\"timeStamp\" value=\"2\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/seminar_1_project/firstproject/myapp2/urls.py</url>\r\n          <line>1</line>\r\n          <option name=\"timeStamp\" value=\"3\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a01e95d730349633dcdb42a5c93801e6608ed0eb)
++++ b/.idea/workspace.xml	(date 1693426830132)
+@@ -1,44 +1,32 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="5e28e31d-a3ac-46fa-aee8-2edd2ddd57d8" name="Changes" comment="семинар3">
+-      <change afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp2/templates/myapp2/temp1.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp2/urls.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp3/templates/myapp3/urls.py" afterDir="false" />
++    <list default="true" id="872f5348-0a02-42b2-a667-2cd1f9c73329" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/seminar_1_project/firstproject/firstproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/firstproject/urls.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp/urls.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp/views.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_1_project/firstproject/myapp2/views.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lessonproject/lessonproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessonproject/lessonproject/urls.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lessonproject/log/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/lessonproject/log/django.log" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lessonproject/myapp4/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessonproject/myapp4/views.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lessonproject/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lessonproject/templates/base.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Python Script" />
+-        <option value="HTML File" />
+-      </list>
+-    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="hw_2_1" />
++        <entry key="$PROJECT_DIR$" value="hw_4" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="GithubDefaultAccount">
+-    <option name="defaultAccountId" value="c0ed95e2-ab7b-45ec-bf39-2ef8775851b9" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+-  <component name="ProjectId" id="2U4ljjZxiF0jP7oWGr2M9i8zz5z" />
++  <component name="ProjectId" id="2UiYidhRT6t2v0SYSw9fdPWSNx3" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="2" id="Add" />
+   </component>
+@@ -48,84 +36,20 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+-    "ASKED_ADD_EXTERNAL_FILES": "true",
+-    "DefaultHtmlFileTemplate": "HTML File",
+-    "last_opened_file_path": "C:/Users/Райан/PycharmProjects/educDjango/seminar_1_project/firstproject/myapp2",
+-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+-  },
+-  "keyToStringList": {
+-    "ChangesTree.GroupingKeys": [
+-      "directory"
+-    ]
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+   }
+ }]]></component>
+-  <component name="RecentsManager">
+-    <key name="CopyFile.RECENT_KEYS">
+-      <recent name="C:\Users\Райан\PycharmProjects\educDjango\seminar_1_project\firstproject\myapp2" />
+-      <recent name="C:\Users\Райан\PycharmProjects\educDjango\seminar_1_project\firstproject\myapp3" />
+-      <recent name="C:\Users\Райан\PycharmProjects\educDjango\seminar_1_project" />
+-      <recent name="C:\Users\Райан\PycharmProjects\educDjango\homework_project\hw_1\myproject\myapp" />
+-      <recent name="C:\Users\Райан\PycharmProjects\educDjango\homework_project\hw_1\myproject" />
+-    </key>
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="C:\Users\Райан\PycharmProjects\educDjango\homework_project\hw_1\myproject" />
+-      <recent name="C:\Users\Райан\PycharmProjects\educDjango\homework_project\hw_1" />
+-    </key>
+-  </component>
+-  <component name="RunManager">
+-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+-      <module name="educDjango" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+-  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="5e28e31d-a3ac-46fa-aee8-2edd2ddd57d8" name="Changes" comment="" />
+-      <created>1692206876004</created>
++      <changelist id="872f5348-0a02-42b2-a667-2cd1f9c73329" name="Changes" comment="" />
++      <created>1693424001399</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1692206876004</updated>
++      <updated>1693424001399</updated>
+     </task>
+-    <task id="LOCAL-00001" summary="добавила .gitignore">
+-      <created>1692459859611</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1692459859611</updated>
+-    </task>
+-    <task id="LOCAL-00002" summary="?">
+-      <created>1692461983475</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1692461983475</updated>
+-    </task>
+-    <task id="LOCAL-00003" summary="семинар3">
+-      <created>1692992387870</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1692992387870</updated>
+-    </task>
+-    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -139,30 +63,4 @@
+       </map>
+     </option>
+   </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="добавила .gitignore" />
+-    <MESSAGE value="?" />
+-    <MESSAGE value="семинар3" />
+-    <option name="LAST_COMMIT_MESSAGE" value="семинар3" />
+-  </component>
+-  <component name="XDebuggerManager">
+-    <breakpoint-manager>
+-      <breakpoints>
+-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-          <url>file://$PROJECT_DIR$/main.py</url>
+-          <line>8</line>
+-          <option name="timeStamp" value="1" />
+-        </line-breakpoint>
+-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-          <url>file://$PROJECT_DIR$/seminar_1_project/firstproject/myapp2/management/commands/create_article.py</url>
+-          <option name="timeStamp" value="2" />
+-        </line-breakpoint>
+-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-          <url>file://$PROJECT_DIR$/seminar_1_project/firstproject/myapp2/urls.py</url>
+-          <line>1</line>
+-          <option name="timeStamp" value="3" />
+-        </line-breakpoint>
+-      </breakpoints>
+-    </breakpoint-manager>
+-  </component>
+ </project>
+\ No newline at end of file
+Index: lessonproject/log/django.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Watching for file changes with StatReloader\r\n\"GET /prefix/about/ HTTP/1.1\" 200 8\r\n\"GET /prefix/ HTTP/1.1\" 200 13\r\nNot Found: /index\r\n\"GET /index HTTP/1.1\" 404 2206\r\nNot Found: /\r\n\"GET / HTTP/1.1\" 404 2173\r\nC:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonapp\\views.py changed, reloading.\r\nWatching for file changes with StatReloader\r\nC:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonapp\\views.py changed, reloading.\r\nWatching for file changes with StatReloader\r\nC:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonapp\\views.py changed, reloading.\r\nWatching for file changes with StatReloader\r\nC:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonapp\\views.py changed, reloading.\r\nWatching for file changes with StatReloader\r\nNot Found: /about/\r\n\"GET /about/ HTTP/1.1\" 404 2209\r\n\"GET /prefix/ HTTP/1.1\" 200 13\r\n\"GET /prefix/about/ HTTP/1.1\" 200 27\r\nC:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonproject\\settings.py changed, reloading.\r\nWatching for file changes with StatReloader\r\nC:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonproject\\settings.py changed, reloading.\r\nWatching for file changes with StatReloader\r\nC:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonproject\\settings.py changed, reloading.\r\nWatching for file changes with StatReloader\r\nC:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonproject\\settings.py changed, reloading.\r\nWatching for file changes with StatReloader\r\nC:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonproject\\settings.py changed, reloading.\r\nWatching for file changes with StatReloader\r\nC:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonproject\\settings.py changed, reloading.\r\nWatching for file changes with StatReloader\r\nC:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonproject\\settings.py changed, reloading.\r\nWatching for file changes with StatReloader\r\nC:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonproject\\settings.py changed, reloading.\r\nINFO 2023-08-16 22:16:52,536 autoreload 8376 8556 Watching for file changes with StatReloader\r\nINFO 2023-08-16 22:16:58,314 autoreload 8376 8556 C:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonproject\\settings.py changed, reloading.\r\nINFO 2023-08-16 22:16:59,547 autoreload 7672 6888 Watching for file changes with StatReloader\r\nINFO 2023-08-16 22:17:21,372 basehttp 7672 8964 \"GET /prefix/about/ HTTP/1.1\" 200 27\r\nINFO 2023-08-16 22:17:26,967 basehttp 7672 8964 \"GET /prefix/ HTTP/1.1\" 200 13\r\nINFO 2023-08-16 22:17:34,561 basehttp 7672 8964 \"GET /prefix/about/ HTTP/1.1\" 200 27\r\nINFO 2023-08-30 21:59:16,000 autoreload 7428 10392 Watching for file changes with StatReloader\r\nINFO 2023-08-30 22:00:39,400 autoreload 7428 10392 C:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\myapp4\\views.py changed, reloading.\r\nINFO 2023-08-30 22:00:40,347 autoreload 1156 8464 Watching for file changes with StatReloader\r\nINFO 2023-08-30 22:01:54,120 autoreload 1156 8464 C:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonproject\\urls.py changed, reloading.\r\nINFO 2023-08-30 22:01:55,013 autoreload 10720 8948 Watching for file changes with StatReloader\r\nINFO 2023-08-30 22:06:19,514 autoreload 10720 8948 C:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonproject\\urls.py changed, reloading.\r\nINFO 2023-08-30 22:06:20,908 autoreload 12324 3828 Watching for file changes with StatReloader\r\nINFO 2023-08-30 22:07:03,990 autoreload 12324 3828 C:\\Users\\�����\\PycharmProjects\\educDjango\\lessonproject\\lessonproject\\urls.py changed, reloading.\r\nINFO 2023-08-30 22:07:04,920 autoreload 3392 4236 Watching for file changes with StatReloader\r\nWARNING 2023-08-30 22:07:08,182 log 3392 1184 Not Found: /\r\nWARNING 2023-08-30 22:07:08,185 basehttp 3392 1184 \"GET / HTTP/1.1\" 404 2383\r\nWARNING 2023-08-30 22:07:08,366 log 3392 1184 Not Found: /favicon.ico\r\nWARNING 2023-08-30 22:07:08,409 basehttp 3392 1184 \"GET /favicon.ico HTTP/1.1\" 404 2434\r\nWARNING 2023-08-30 22:07:31,029 log 3392 1184 Not Found: /user/add/\r\nWARNING 2023-08-30 22:07:31,030 basehttp 3392 1184 \"GET /user/add/ HTTP/1.1\" 404 2428\r\nWARNING 2023-08-30 22:08:28,840 log 3392 1184 Not Found: /les4\r\nWARNING 2023-08-30 22:08:28,840 basehttp 3392 1184 \"GET /les4 HTTP/1.1\" 404 2413\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lessonproject/log/django.log b/lessonproject/log/django.log
+--- a/lessonproject/log/django.log	(revision a01e95d730349633dcdb42a5c93801e6608ed0eb)
++++ b/lessonproject/log/django.log	(date 1693426946652)
+@@ -55,3 +55,370 @@
+ WARNING 2023-08-30 22:07:31,030 basehttp 3392 1184 "GET /user/add/ HTTP/1.1" 404 2428
+ WARNING 2023-08-30 22:08:28,840 log 3392 1184 Not Found: /les4
+ WARNING 2023-08-30 22:08:28,840 basehttp 3392 1184 "GET /les4 HTTP/1.1" 404 2413
++INFO 2023-08-30 23:14:30,957 autoreload 11616 7616 Watching for file changes with StatReloader
++WARNING 2023-08-30 23:14:33,399 log 11616 2460 Not Found: /
++WARNING 2023-08-30 23:14:33,401 basehttp 11616 2460 "GET / HTTP/1.1" 404 2383
++INFO 2023-08-30 23:14:41,720 basehttp 11616 2460 "GET /admin HTTP/1.1" 301 0
++INFO 2023-08-30 23:14:41,785 basehttp 11616 5336 "GET /admin/ HTTP/1.1" 302 0
++INFO 2023-08-30 23:14:43,047 basehttp 11616 5336 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
++INFO 2023-08-30 23:14:43,340 basehttp 11616 6996 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
++INFO 2023-08-30 23:14:43,436 basehttp 11616 5612 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
++INFO 2023-08-30 23:14:43,450 basehttp 11616 12372 "GET /static/admin/css/login.css HTTP/1.1" 200 958
++INFO 2023-08-30 23:14:43,591 basehttp 11616 10344 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
++INFO 2023-08-30 23:14:43,617 basehttp 11616 5336 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
++INFO 2023-08-30 23:14:44,154 basehttp 11616 2244 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
++INFO 2023-08-30 23:14:44,167 basehttp 11616 6996 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
++WARNING 2023-08-30 23:14:55,143 log 11616 6996 Not Found: /
++WARNING 2023-08-30 23:14:55,144 basehttp 11616 6996 "GET / HTTP/1.1" 404 2383
++INFO 2023-08-30 23:15:03,823 basehttp 11616 6996 "GET /les3/ HTTP/1.1" 200 592
++WARNING 2023-08-30 23:15:08,731 log 11616 6996 Not Found: /les4
++WARNING 2023-08-30 23:15:08,731 basehttp 11616 6996 "GET /les4 HTTP/1.1" 404 2413
++INFO 2023-08-30 23:16:03,095 basehttp 11616 6996 "GET /les4/user/add HTTP/1.1" 301 0
++ERROR 2023-08-30 23:16:04,229 log 11616 2244 Internal Server Error: /les4/user/add/
++Traceback (most recent call last):
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
++    return self.template.render(context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
++    return self._render(context)
++           ^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
++    return self.nodelist.render(context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
++    return SafeString("".join([node.render_annotated(context) for node in self]))
++                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
++    return SafeString("".join([node.render_annotated(context) for node in self]))
++                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
++    return self.render(context)
++           ^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
++    compiled_parent = self.get_parent(context)
++                      ^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
++    return self.find_template(parent, context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
++    template, origin = context.template.engine.find_template(
++                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
++    raise TemplateDoesNotExist(name, tried=tried)
++django.template.exceptions.TemplateDoesNotExist: base.html
++
++The above exception was the direct cause of the following exception:
++
++Traceback (most recent call last):
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
++    response = get_response(request)
++               ^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
++    response = wrapped_callback(request, *callback_args, **callback_kwargs)
++               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\lessonproject\myapp4\views.py", line 23, in user_form
++    return render(
++           ^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
++    content = loader.render_to_string(template_name, context, request, using=using)
++              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
++    return template.render(context, request)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
++    reraise(exc, self.backend)
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
++    raise new from exc
++django.template.exceptions.TemplateDoesNotExist: base.html
++ERROR 2023-08-30 23:16:04,268 basehttp 11616 2244 "GET /les4/user/add/ HTTP/1.1" 500 131545
++ERROR 2023-08-30 23:18:13,390 log 11616 2244 Internal Server Error: /les4/user/add/
++Traceback (most recent call last):
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
++    return self.template.render(context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
++    return self._render(context)
++           ^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
++    return self.nodelist.render(context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
++    return SafeString("".join([node.render_annotated(context) for node in self]))
++                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
++    return SafeString("".join([node.render_annotated(context) for node in self]))
++                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
++    return self.render(context)
++           ^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
++    compiled_parent = self.get_parent(context)
++                      ^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
++    return self.find_template(parent, context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
++    template, origin = context.template.engine.find_template(
++                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
++    raise TemplateDoesNotExist(name, tried=tried)
++django.template.exceptions.TemplateDoesNotExist: base.html
++
++The above exception was the direct cause of the following exception:
++
++Traceback (most recent call last):
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
++    response = get_response(request)
++               ^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
++    response = wrapped_callback(request, *callback_args, **callback_kwargs)
++               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\lessonproject\myapp4\views.py", line 23, in user_form
++    return render(
++           ^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
++    content = loader.render_to_string(template_name, context, request, using=using)
++              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
++    return template.render(context, request)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
++    reraise(exc, self.backend)
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
++    raise new from exc
++django.template.exceptions.TemplateDoesNotExist: base.html
++ERROR 2023-08-30 23:18:13,397 basehttp 11616 2244 "GET /les4/user/add/ HTTP/1.1" 500 131682
++ERROR 2023-08-30 23:18:18,894 log 11616 2244 Internal Server Error: /les4/user/add/
++Traceback (most recent call last):
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
++    return self.template.render(context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
++    return self._render(context)
++           ^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
++    return self.nodelist.render(context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
++    return SafeString("".join([node.render_annotated(context) for node in self]))
++                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
++    return SafeString("".join([node.render_annotated(context) for node in self]))
++                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
++    return self.render(context)
++           ^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
++    compiled_parent = self.get_parent(context)
++                      ^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
++    return self.find_template(parent, context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
++    template, origin = context.template.engine.find_template(
++                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
++    raise TemplateDoesNotExist(name, tried=tried)
++django.template.exceptions.TemplateDoesNotExist: base.html
++
++The above exception was the direct cause of the following exception:
++
++Traceback (most recent call last):
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
++    response = get_response(request)
++               ^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
++    response = wrapped_callback(request, *callback_args, **callback_kwargs)
++               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\lessonproject\myapp4\views.py", line 23, in user_form
++    return render(
++           ^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
++    content = loader.render_to_string(template_name, context, request, using=using)
++              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
++    return template.render(context, request)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
++    reraise(exc, self.backend)
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
++    raise new from exc
++django.template.exceptions.TemplateDoesNotExist: base.html
++ERROR 2023-08-30 23:18:18,901 basehttp 11616 2244 "GET /les4/user/add/ HTTP/1.1" 500 131682
++ERROR 2023-08-30 23:18:19,279 log 11616 2244 Internal Server Error: /les4/user/add/
++Traceback (most recent call last):
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
++    return self.template.render(context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
++    return self._render(context)
++           ^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
++    return self.nodelist.render(context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
++    return SafeString("".join([node.render_annotated(context) for node in self]))
++                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
++    return SafeString("".join([node.render_annotated(context) for node in self]))
++                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
++    return self.render(context)
++           ^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
++    compiled_parent = self.get_parent(context)
++                      ^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
++    return self.find_template(parent, context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
++    template, origin = context.template.engine.find_template(
++                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
++    raise TemplateDoesNotExist(name, tried=tried)
++django.template.exceptions.TemplateDoesNotExist: base.html
++
++The above exception was the direct cause of the following exception:
++
++Traceback (most recent call last):
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
++    response = get_response(request)
++               ^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
++    response = wrapped_callback(request, *callback_args, **callback_kwargs)
++               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\lessonproject\myapp4\views.py", line 23, in user_form
++    return render(
++           ^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
++    content = loader.render_to_string(template_name, context, request, using=using)
++              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
++    return template.render(context, request)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
++    reraise(exc, self.backend)
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
++    raise new from exc
++django.template.exceptions.TemplateDoesNotExist: base.html
++ERROR 2023-08-30 23:18:19,287 basehttp 11616 2244 "GET /les4/user/add/ HTTP/1.1" 500 131682
++ERROR 2023-08-30 23:18:19,523 log 11616 2244 Internal Server Error: /les4/user/add/
++Traceback (most recent call last):
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
++    return self.template.render(context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
++    return self._render(context)
++           ^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
++    return self.nodelist.render(context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
++    return SafeString("".join([node.render_annotated(context) for node in self]))
++                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
++    return SafeString("".join([node.render_annotated(context) for node in self]))
++                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
++    return self.render(context)
++           ^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
++    compiled_parent = self.get_parent(context)
++                      ^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
++    return self.find_template(parent, context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
++    template, origin = context.template.engine.find_template(
++                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
++    raise TemplateDoesNotExist(name, tried=tried)
++django.template.exceptions.TemplateDoesNotExist: base.html
++
++The above exception was the direct cause of the following exception:
++
++Traceback (most recent call last):
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
++    response = get_response(request)
++               ^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
++    response = wrapped_callback(request, *callback_args, **callback_kwargs)
++               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\lessonproject\myapp4\views.py", line 23, in user_form
++    return render(
++           ^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
++    content = loader.render_to_string(template_name, context, request, using=using)
++              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
++    return template.render(context, request)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
++    reraise(exc, self.backend)
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
++    raise new from exc
++django.template.exceptions.TemplateDoesNotExist: base.html
++ERROR 2023-08-30 23:18:19,530 basehttp 11616 2244 "GET /les4/user/add/ HTTP/1.1" 500 131682
++INFO 2023-08-30 23:20:29,283 autoreload 11616 7616 C:\Users\�����\PycharmProjects\educDjango\lessonproject\lessonproject\urls.py changed, reloading.
++INFO 2023-08-30 23:20:30,761 autoreload 4220 5404 Watching for file changes with StatReloader
++INFO 2023-08-30 23:21:28,485 autoreload 4220 5404 C:\Users\�����\PycharmProjects\educDjango\lessonproject\lessonproject\urls.py changed, reloading.
++INFO 2023-08-30 23:21:29,588 autoreload 7868 3692 Watching for file changes with StatReloader
++INFO 2023-08-30 23:21:46,634 autoreload 7868 3692 C:\Users\�����\PycharmProjects\educDjango\lessonproject\lessonproject\urls.py changed, reloading.
++INFO 2023-08-30 23:21:47,518 autoreload 5368 7476 Watching for file changes with StatReloader
++ERROR 2023-08-30 23:22:25,530 log 5368 8416 Internal Server Error: /les4/user/add/
++Traceback (most recent call last):
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
++    return self.template.render(context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
++    return self._render(context)
++           ^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
++    return self.nodelist.render(context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
++    return SafeString("".join([node.render_annotated(context) for node in self]))
++                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
++    return SafeString("".join([node.render_annotated(context) for node in self]))
++                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
++    return self.render(context)
++           ^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
++    compiled_parent = self.get_parent(context)
++                      ^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
++    return self.find_template(parent, context)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
++    template, origin = context.template.engine.find_template(
++                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
++    raise TemplateDoesNotExist(name, tried=tried)
++django.template.exceptions.TemplateDoesNotExist: base.html
++
++The above exception was the direct cause of the following exception:
++
++Traceback (most recent call last):
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
++    response = get_response(request)
++               ^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
++    response = wrapped_callback(request, *callback_args, **callback_kwargs)
++               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\lessonproject\myapp4\views.py", line 23, in user_form
++    return render(
++           ^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
++    content = loader.render_to_string(template_name, context, request, using=using)
++              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
++    return template.render(context, request)
++           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
++    reraise(exc, self.backend)
++  File "C:\Users\�����\PycharmProjects\educDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
++    raise new from exc
++django.template.exceptions.TemplateDoesNotExist: base.html
++ERROR 2023-08-30 23:22:25,541 basehttp 5368 8416 "GET /les4/user/add/ HTTP/1.1" 500 131142
+Index: lessonproject/templates/base.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"ru\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>{% block title %}Блог{% endblock %}</title>\r\n</head>\r\n<body>\r\n    {% block content %}\r\n    <p>Контент скоро появится ...</p>\r\n    {% endblock %}\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lessonproject/templates/base.html b/lessonproject/templates/base.html
+--- a/lessonproject/templates/base.html	(revision a01e95d730349633dcdb42a5c93801e6608ed0eb)
++++ b/lessonproject/templates/base.html	(date 1693426686112)
+@@ -1,12 +1,38 @@
+ <!DOCTYPE html>
+ <html lang="ru">
+ <head>
+-    <meta charset="UTF-8">
++    <meta charset="utf-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
++    {% load static %}
++    <link rel="stylesheet" href="{% static 'app3/css/bootstrap.min.css' %}">
+     <title>{% block title %}Блог{% endblock %}</title>
+ </head>
+ <body>
+-    {% block content %}
+-    <p>Контент скоро появится ...</p>
+-    {% endblock %}
++<nav class="navbar navbar-expand-lg navbar-light bg-light">
++    <div class="container-fluid">
++        <a class="navbar-brand" href="/">Мой сайт</a>
++        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
++                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
++            <span class="navbar-toggler-icon"></span>
++        </button>
++        <div class="collapse navbar-collapse show justify-content-end align-items-end" id="navbarNavAltMarkup">
++            <div class="navbar-nav">
++                <a class="nav-link" href="/app2/">Приложение 2</a>
++                <a class="nav-link" href="/app3/">Приложение 3</a>
++            </div>
++        </div>
++    </div>
++</nav>
++
++{% block content %}
++    Контент скоро появится...
++{% endblock %}
++
++<div class="row fixed-bottom modal-footer">
++    <hr>
++    <p>Все права защищены &copy;</p>
++</div>
++
++<script src="{% static 'app3/js/bootstrap.bundle.min.js' %}"></script>
+ </body>
+ </html>
