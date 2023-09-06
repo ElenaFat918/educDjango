@@ -1,15 +1,36 @@
-﻿<!DOCTYPE html>
-<html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <title>Первый шаблон Django</title>
-    </head>
-    <body>
-        <h1>Hello, {{ name }}!</h1>
-    </body>
-</html>
+﻿{% extends 'base.html' %}
 
-
-<!-- В этом примере мы создали HTML-страницу с заголовком "Первый шаблон Django".
-Внутри тега body мы добавили заголовок первого уровня h1 и использовали
-переменную name, которая будет передана в шаблон из представления. -->
+{% block content %}
+<ul class="nav flex-column">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/hello">Функциональное представление hello</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/hello2/">Классовое представление hello2</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/posts/<int:year>/">Cтатьи за год</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/posts/<int:year>/<int:month>/">Cтатьи за год и месяц</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/posts/<int:year>/<int:month>/<slug:slug>/">Cтатьи за год и месяц по идентификатору</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/if/">Передаем список и словарь в контексте</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/for/">Передаем список и словарь в контексте в функции</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/about/">Обо мне</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/author/<int:author_id>/">автор 5 статей по ID</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/post/<int:post_id>/">статьи по ID</a>
+  </li>
+</ul>
+{% endblock %}

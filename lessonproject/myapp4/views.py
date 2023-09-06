@@ -2,6 +2,7 @@ import logging
 
 from django.core.files.storage import FileSystemStorage
 from django.shortcuts import render
+
 from .forms import UserForm, ManyFieldsForm
 from .forms import ImageForm
 from .models import User
@@ -44,7 +45,12 @@ def many_fields_form(request):
             logger.info(f'Получили {form.cleaned_data=}.')
     else:
         m = ManyFieldsForm()
-    return render(request, 'myapp4/many_fields_form.html', {'form': form})
+    return render(request, 'myapp4/many_fields_form.html', {'form': m})
+
+
+def main_myapp4(request):
+    return render(request, 'myapp4/main_myapp4.html')
+
 
 """
     Стандартный вывод пустой формы при GET запросе и формирование формы с данными при POST запросе с последующей 

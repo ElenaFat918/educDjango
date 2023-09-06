@@ -39,14 +39,11 @@ class UserForm(forms.Form):
 class ManyFieldsForm(forms.Form):
     name = forms.CharField(max_length=50)  # текстовое поле ограничено 50 символами
     email = forms.EmailField()  # возраст должен быть не меньше 18
-    age = forms.IntegerField(
-        min_value=18)  # для поля is_active прописали отсутсвие “галочки” по умолчанию. Oбязательно прописывать для логического поля параметр required
+    age = forms.IntegerField(min_value=18)  # для поля is_active прописали отсутсвие “галочки” по умолчанию. Oбязательно прописывать для логического поля параметр required
     height = forms.FloatField()
     is_active = forms.BooleanField(required=False)
-    birthdate = forms.DateField(
-        initial=datetime.date.today)  # при вводе дня рождения нам заранее демонстрируется текущая дата
-    gender = forms.ChoiceField(choices=[('M', 'Male'), ('F',
-                                                        'Female')])  # выбор пола показывается как поле с выбором из двух вариантов. При этом пользователь видит Male и Female, а в переменную сохраняются M или F.
+    birthdate = forms.DateField(initial=datetime.date.today)  # при вводе дня рождения нам заранее демонстрируется текущая дата
+    gender = forms.ChoiceField(choices=[('M', 'Male'), ('F','Female')])  # выбор пола показывается как поле с выбором из двух вариантов. При этом пользователь видит Male и Female, а в переменную сохраняются M или F.
 
 
 class ImageForm(forms.Form):

@@ -1,6 +1,7 @@
 ﻿from django.core.management.base import BaseCommand
 from myapp2.models import Author, Post
 
+
 class Command(BaseCommand):
     help = "Generate fake authors and posts."
 
@@ -13,5 +14,6 @@ class Command(BaseCommand):
             author = Author(name=f'Name{i}', email=f'mail{i}@mail.ru')
             author.save()
         for j in range(1, count + 1):
-            post = Post(title=f'Title{j}', content=f'Text from{author.name} #{j} is bla bla bla many long text', author=author)
+            post = Post(title=f'Title{j}', content=f'Text from{author.name} #{j} is bla bla bla many long text',
+                        author=author)
             post.save()
