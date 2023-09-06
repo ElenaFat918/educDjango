@@ -20,18 +20,26 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="c7b6470b-7adf-4f94-b091-137d241254e5" object-ref="schemas/main/tables/hw_app_order_products" />
-      <object connection-id="c7b6470b-7adf-4f94-b091-137d241254e5" object-ref="schemas/main/tables/hw_app_product" />
-      <object connection-id="c7b6470b-7adf-4f94-b091-137d241254e5" object-ref="schemas/main/tables/hw_app_order" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="64056fc3-275f-4d58-a487-b37c5a651699" dataset="main.sqlite_sequence" active-filter-id="" />
+    <filter-actions connection-id="64056fc3-275f-4d58-a487-b37c5a651699" dataset="main.marketapp_order" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="64056fc3-275f-4d58-a487-b37c5a651699" dataset="main.marketapp_order_products" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="64056fc3-275f-4d58-a487-b37c5a651699" dataset="main.marketapp_product" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="64056fc3-275f-4d58-a487-b37c5a651699" dataset="main.marketapp_сlient" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="64056fc3-275f-4d58-a487-b37c5a651699" dataset="main.marketapp_user" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="00dc7d48-a232-4fcd-b60d-1571cee95ddb" dataset="main.myapp5_category" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="00dc7d48-a232-4fcd-b60d-1571cee95ddb" dataset="main.myapp5_product" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="00dc7d48-a232-4fcd-b60d-1571cee95ddb" dataset="main.hw_app_product" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="c7b6470b-7adf-4f94-b091-137d241254e5" dataset="main.sqlite_sequence" active-filter-id="" />
     <filter-actions connection-id="c7b6470b-7adf-4f94-b091-137d241254e5" dataset="main.hw_app_order" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="c7b6470b-7adf-4f94-b091-137d241254e5" dataset="main.hw_app_user" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="c7b6470b-7adf-4f94-b091-137d241254e5" dataset="main.hw_app_product" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="c7b6470b-7adf-4f94-b091-137d241254e5" dataset="main.hw_app_order_products" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="2b8c653e-deb5-4f36-aa2d-068934f5d56c" dataset="main.myapp5_category" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="2b8c653e-deb5-4f36-aa2d-068934f5d56c" dataset="main.auth_user" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="2b8c653e-deb5-4f36-aa2d-068934f5d56c" dataset="main.myapp5_product" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
