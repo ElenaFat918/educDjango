@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22587969-a675-416a-a777-b6eef57cc946" name="Changes" comment="дз5  добавлен админ (admin admin), добавлен пользователь User_adm(User_adm, U1234567), Oper (Oper,O1234567). Добавлены  возможности админки в рамках списка значений">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessonproject/log/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/lessonproject/log/django.log" afterDir="false" />
-    </list>
+    <list default="true" id="22587969-a675-416a-a777-b6eef57cc946" name="Changes" comment="семинар3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
